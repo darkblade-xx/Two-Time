@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
 
 body {
-  background-color: goldenrod;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 html,
@@ -9,6 +9,40 @@ body {
   margin: 0;
   padding: 0;
 }
+
+p,
+ul,
+ol {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+a,
+a:visited {
+  color: hsl(248, 16%, 29%);
+}
+
+a:hover {
+  color: hwb(223 0% 2%);
+}
+
+a:active {
+  color: hwb(247 0% 51%);
+}
+
+p.caption {
+  font-size: 16px;
+  color: #a09ca5;
+  font-style: oblique;
+  margin: 0;
+}
+
 header {
   text-align: center;
   background-color: rgb(90, 89, 105);
@@ -22,7 +56,7 @@ header img {
   border-radius: 50%;
 }
 
-header h1 {
+h1 {
   font-family: "Edu NSW ACT Cursive", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -30,4 +64,22 @@ header h1 {
   font-size: 70px;
   margin: 10 px 0 20px 0;
   color: #f5f0ff;
+}
+
+h2 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20 px 0;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+main img {
+  max-width: 100%;
 }
